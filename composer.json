@@ -1,0 +1,47 @@
+{
+    "name": "ganga/laravel-auth-themes",
+    "type": "library",
+    "description": "Laravel 5.2 Generator for Authentication themes",
+    "keywords": [
+        "ganga",
+        "auth",
+        "laravel auth",
+        "theme",
+        "themes"
+    ],
+    "homepage": "https://github.com/gangachris/laravel-auth-themes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ganga Christopher",
+            "email": "ganga.chris@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ganga\\AuthThemes\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ganga\\AuthThemesTest\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
