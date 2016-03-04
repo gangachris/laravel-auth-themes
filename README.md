@@ -50,7 +50,7 @@ Now, you need to first generate laravel default auth.
 $ php artisan make:auth
 ```
 
-This artisan command creates some blade view files in your `reources\views` folder. This are what Laravel Auth Themes will replace. Currently, theres only one repo with the structure of the default theme. But I will list them here as time goes.
+This artisan command creates some blade view files in your `reources\views` folder. This are what Laravel Auth Themes will replace. Currently, there's only one repo with the structure of the default theme. But I will list them here as time goes. Feel free to create a theme too, and add a link here and send a PR.
 ```bash
 php artisan auth:theme https://github.com/gangachris/default-laravel-auth-theme.git
 ```
