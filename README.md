@@ -54,6 +54,7 @@ This artisan command creates some blade view files in your `reources\views` fold
 ```bash
 $ php artisan auth:theme https://github.com/gangachris/default-laravel-auth-theme.git
 ```
+The easiest way to make any theme is to run the `php artisan make:auth` command, then edit the generated html, then pusblish it to a public repo.
 
 ### List of available themes
 1. [Default Bootstrap Theme](https://github.com/gangachris/default-laravel-auth-theme)
