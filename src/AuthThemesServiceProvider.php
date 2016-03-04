@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class AuthThemesServiceProvider extends ServiceProvider
 {
 
-   /**
+    /**
      * Bootstrap the application services.
      *
      * @return void
@@ -25,6 +25,6 @@ class AuthThemesServiceProvider extends ServiceProvider
   */
     public function register()
     {
-       //
+        //
     }
 }
