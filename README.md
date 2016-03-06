@@ -58,6 +58,7 @@ The easiest way to make any theme is to run the `php artisan make:auth` command,
 
 ### List of available themes
 1. [Default Bootstrap Theme](https://github.com/gangachris/default-laravel-auth-theme)
+2. [Materialize CSS Theme](https://github.com/gangachris/materialize-laravel-auth-theme)
 
 ## Change log
 
