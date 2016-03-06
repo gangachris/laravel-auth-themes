@@ -40,10 +40,10 @@ class AuthThemeCommand extends Command
     public function handle()
     {
         $git_url = $this->argument('$git_url');
-        $warning = 'This will overrite you Auth View Files. Do you wish to continue? [y|N]';
+        $warning = 'This will overrite you Auth view files. Do you wish to continue? [y|N]';
         if ($this->confirm($warning)) {
             $this->info('Getting auth theme from github');
-            $process = new Process('git clone '. $git_url . ' tmp_auth && rm -rf tmp_auth/.git && rm -f tmp_auth/readme.md && mv tmp_auth/* resources/views/ && rm -rf tmp_auth');
+            $process = new Process('git clone '. $git_url . ' tmp_auth && rm -rf tmp_auth/.git && rm -f tmp_auth/readme.md && cp -rf tmp_auth/* resources/views/ && rm -rf tmp_auth');
             $process->run();
 
             // executes after the command finishes
